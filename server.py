@@ -3,7 +3,7 @@ from flask_cors import CORS
 from joblib import load
 
 # Load the trained model
-model = load('/Users/khushpatel/Desktop/IBM/Api/diabetes_model.joblib')
+model = load('diabetes_model.joblib')
 
 app = Flask(__name__)
 CORS(app)
